@@ -1,0 +1,145 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header h2 {
+    color: #d1d5db;
+}
+
+/* Navigation */
+nav {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1d4ed8;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #1f2937;
+    margin-bottom: 15px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+/* Skills List */
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Links */
+a {
+    color: #2563eb;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Top/Bottom Links */
+#top,
+#bottom {
+    text-align: center;
+    margin: 15px 0;
+}
+
+/* Horizontal Line */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #d1d5db;
+    margin: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    header {
+        padding: 20px 10px;
+    }
+}
